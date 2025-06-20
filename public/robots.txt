@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zeyad-profile.vercel.app/
+
+# Sitemaps
+Sitemap: https://zeyad-profile.vercel.app//sitemap.xml

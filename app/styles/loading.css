@@ -1,0 +1,29 @@
+.dot-spinner {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.dot-spinner__dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  animation: dotSpinner 2s infinite;
+}
+
+.dot-spinner__dot:nth-child(1) { transform: rotate(0deg) translateX(30px); animation-delay: -1.875s; }
+.dot-spinner__dot:nth-child(2) { transform: rotate(45deg) translateX(30px); animation-delay: -1.75s; }
+.dot-spinner__dot:nth-child(3) { transform: rotate(90deg) translateX(30px); animation-delay: -1.625s; }
+.dot-spinner__dot:nth-child(4) { transform: rotate(135deg) translateX(30px); animation-delay: -1.5s; }
+.dot-spinner__dot:nth-child(5) { transform: rotate(180deg) translateX(30px); animation-delay: -1.375s; }
+.dot-spinner__dot:nth-child(6) { transform: rotate(225deg) translateX(30px); animation-delay: -1.25s; }
+.dot-spinner__dot:nth-child(7) { transform: rotate(270deg) translateX(30px); animation-delay: -1.125s; }
+.dot-spinner__dot:nth-child(8) { transform: rotate(315deg) translateX(30px); animation-delay: -1s; }
+
+@keyframes dotSpinner {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
