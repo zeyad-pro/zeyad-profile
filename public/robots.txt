@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://zeyad-profile.vercel.app/
+Host: https://my-profile-9ioh.vercel.app/
 
 # Sitemaps
-Sitemap: https://zeyad-profile.vercel.app//sitemap.xml
+Sitemap: https://my-profile-9ioh.vercel.app//sitemap.xml
