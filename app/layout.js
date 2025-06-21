@@ -90,6 +90,7 @@ export default function RootLayout({ children }) {
               <button className="px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-slate-900 transition-all duration-300">
                 View All Projects
               </button>
+
             </div> */}
             
             <div className="border-t border-slate-700 pt-8">
