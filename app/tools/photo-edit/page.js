@@ -118,7 +118,7 @@ const PhotoEditor = () => {
                 border: "1px solid rgba(255, 255, 255, 0.18)",
                 padding: "30px"
             }}
-            className='pt-55'>
+           >
                 <h1 style={{
                     color: "white",
                     textAlign: "center",
