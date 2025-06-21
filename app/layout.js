@@ -83,14 +83,14 @@ export default function RootLayout({ children }) {
               These tools are just the beginning. Let's collaborate and create innovative solutions together.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            {/* <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-full hover:shadow-xl transition-all duration-300 hover:scale-105">
                 Get In Touch
               </button>
               <button className="px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-slate-900 transition-all duration-300">
                 View All Projects
               </button>
-            </div>
+            </div> */}
             
             <div className="border-t border-slate-700 pt-8">
               <p className="text-slate-400 text-sm">
